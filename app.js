@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 
 mongoose.connect(
-  "mongodb+srv://admin-Raj:test1234@cluster0.rhkp6a0.mongodb.net/todoList?retryWrites=true&w=majority",
+  "mongodb+srv://<userName>:<password>@cluster0.rhkp6a0.mongodb.net/todoList?retryWrites=true&w=majority",
   {
     useNewUrlParser: true
   }
